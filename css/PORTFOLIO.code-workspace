@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../../17.3_activities"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "UX-UI-Bootcamp"
+	}
+}
