@@ -22,7 +22,7 @@ body{
     grid-template-columns: 50% 50%;
     grid-template-areas:
     "firstProjectPic firstProject"
-    "randomProject3 randomProject4";
+    "brentsPlaceDes brentsPlacePic";
 
 }
 
@@ -33,16 +33,21 @@ body{
 }
 #firstProjectPic{
     grid-area: firstProjectPic;
-    /*  border:black solid 1px; */
+     /* border:black solid 1px; */
 }
-#randomProject3{
-    grid-area: randomProject3;
-    border:black solid 1px;
+#brentsPlaceDes{
+    grid-area: brentsPlaceDes;
+    /* border:black solid 1px; */
 }
 
-#randomProject4{
-    grid-area:randomProject4;
-    border:black solid 1px;
+#brentsPlacePic{
+    grid-area:brentsPlacePic;
+    /* border:black solid 1px; */
+    justify-content: center;
+}
+#brentsPlacePic img{
+    width:100%;
+    justify-content: center;
 }
 
 .projectGridArea h3{
@@ -202,14 +207,30 @@ footer{
     background-color:grey;
     border-radius:20px;
     font-family: 'Red Hat Display';font-size: 16.75px;
-    margin-left:270px;
+    margin-left:170px;
+    color:white;
+}
+.viewProject2{
+    background-color:grey;
+    border-radius:20px;
+    font-family: 'Red Hat Display';font-size: 16.75px;
+    /* margin-left:170px; */
     color:white;
 }
 
 
 #travelBuddyDes p{
-    margin-left:270px;
-    text-align: right;
+    margin-left:170px;
+    text-align: left;
+}
+
+#brentsPlaceDes h3{
+    font-family: 'Red Hat Display';font-size: 64px;
+    font-weight: bold;
+}
+#brentsPlaceDes p{
+    text-align: left;
+    margin-left: 0px;
 }
 
 
