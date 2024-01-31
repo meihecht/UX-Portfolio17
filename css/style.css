@@ -4,10 +4,15 @@ body{
     color:#D9D9D9;
     padding-bottom:2.5rem;
     min-height:100vh;
+    margin:0;
+    padding:0;
+    background-image: url(/images/blob2.png);
+    background-position:top right;
+    background-repeat:no-repeat;
 }
-#travelBuddy{
+/* #travelBuddy{
     margin:40px;
-}
+} */
 #projectGrid{
     margin:40px;
     display:grid;
@@ -66,7 +71,7 @@ body{
 .logo{
     width:23%;
     padding: 1%;
-    text-align: center;
+    text-align: left;
 }
 .logo.active{
     color:white;
@@ -74,23 +79,25 @@ body{
 .logo:hover{
     color:black;
 }
-header.navigation{
+
+
+nav{
     width:73%;
+    text-align:right;
+}
+
+header.navigation{
+    width:98%;
     padding: 1%;
 
 }
 header.navigation ul{
     display: inline-block;
-    width: 100%;
-    margin-left: auto;
-    position:fixed;
-    margin-left:670px;
 }
 
 
 header.navigation li{
     padding:30px;
-    /* margin-left:200px; */
 }
 header.navigation li.active{
     color:black;
@@ -100,13 +107,6 @@ header.navigation li:hover{
     font-weight:bold;
     text-decoration-line: underline;
 
-}
-.viewProject{
-    background-color:grey;
-    border-radius:20px;
-    font-family: 'Red Hat Display';font-size: 16.75px;
-    margin-left:122px;
-    color:white;
 }
 
 .content{
@@ -118,25 +118,23 @@ header.navigation li:hover{
     padding-left:40px;
     color:black;
 }
-.footer{
-    padding: 5px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    margin-left:950px;
-    height:2.5rem;
+/* footer{
+    width:73%;
+    text-align:right;
+} */
+footer{
+    width:98%;
+    padding: 1%;
     z-index: 10;
-
-    
+    text-align: right;   
 }
 .footer ul{
     display:inline-block;
-    vertical-align: top;
+
 }
 .footer li{
     padding:30px;
-    text-align: center;
+
 }
 .footer li.active{
     color:black;
@@ -200,9 +198,20 @@ header.navigation li:hover{
     50% { border-color:black; }
 }
 
-.projects h1,p{
-    padding-left:40px;
-    width:500px;
+.viewProject{
+    background-color:grey;
+    border-radius:20px;
+    font-family: 'Red Hat Display';font-size: 16.75px;
+    margin-left:270px;
+    color:white;
 }
+
+
+#travelBuddyDes p{
+    margin-left:270px;
+    text-align: right;
+}
+
+
 
 
